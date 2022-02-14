@@ -1,11 +1,3 @@
-testing jenkins 1.0
-testing jenkins 2.0
-testing jenkins 3.0
-SUCCESS
-
-testing jenkins_merge 1.0
-testing jenkins_merge 2.0
-testing jenkins_merge 3.0
 testing jenkins_merge 14.0
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
