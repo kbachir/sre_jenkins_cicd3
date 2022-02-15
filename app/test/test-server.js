@@ -19,7 +19,7 @@ describe('Homepage', function() {
     chai.request(server)
       .get('/')
       .end(function(err, res){
-        res.text.should.contain('Sparta')
+        res.text.should.contain('This took forever but we got there in the end #nevergiveup #neverbackdown #ineedtosleep')
         done();
       });
   });
