@@ -15,11 +15,11 @@ describe('Homepage', function() {
         done();
       });
   });
-  it('should contain the word This-took-forever-i-need-to-sleep at / GET', function(done) {
+  it('should contain the word ThisTookForeverIneedToSleep at / GET', function(done) {
     chai.request(server)
       .get('/')
       .end(function(err, res){
-        res.text.should.contain('This-took-forever-i-need-to-sleep')
+        res.text.should.contain('ThisTookForeverIneedToSleep')
         done();
       });
   });
