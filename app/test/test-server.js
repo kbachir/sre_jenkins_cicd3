@@ -15,11 +15,11 @@ describe('Homepage', function() {
         done();
       });
   });
-  it('should contain the word Sparta at / GET', function(done) {
+  it('should contain the word This-took-forever-i-need-to-sleep at / GET', function(done) {
     chai.request(server)
       .get('/')
       .end(function(err, res){
-        res.text.should.contain('This took forever but we got there in the end #nevergiveup #neverbackdown #ineedtosleep')
+        res.text.should.contain('This-took-forever-i-need-to-sleep')
         done();
       });
   });
